@@ -14,7 +14,7 @@
         </v-flex>
 
           <v-btn height="45" class="mx-2 ml-4"> 
-            <v-icon> mdi-account </v-icon>
+            <v-icon> mdi-compare-vertical </v-icon>
           </v-btn>
           <v-btn height="45" class="ml-2" dark>
             <v-icon> mdi-plus </v-icon>
@@ -25,17 +25,16 @@
 
     <v-navigation-drawer app permanent>
       <v-list-item>
+        <v-list-item-avatar>
+          <v-img 
+            width="10"
+            lazy-src="https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo-2011-present.png" 
+            src="https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo-2011-present.png" 
+          />
+        </v-list-item-avatar>
         <v-list-item-content>
           <v-list-item-title class="title">
-            <v-layout align-center>
-              <v-img 
-                width="10"
-                lazy-src="https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo-2011-present.png" 
-                src="https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo-2011-present.png" 
-              />
-              Pinterest 
-            </v-layout>
-              
+            <v-layout align-center> Pinterest </v-layout>
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
@@ -73,11 +72,16 @@
           <v-list-item-content>
             <v-list-item-title> Notifications </v-list-item-title>
           </v-list-item-content>
-          <v-list-item-avatar size="25" color="orange" class="white--text subtitle-2"> 2 </v-list-item-avatar>
+          <v-list-item-avatar
+            size="25" 
+            color="orange" 
+            class="white--text subtitle-2 aling-center"> 
+              <v-flex text-center> 2 </v-flex> 
+          </v-list-item-avatar>
         </v-list-item>
       </v-list>
       <v-card flat>
-        <v-img src="https://assets.website-files.com/5bff8886c3964a992e90d465/5bff98f85ea7faf86504605e_scenes.gif" />
+        <v-img src="https://design4users.com/wp-content/uploads/2020/04/work-at-home-illustration.png" />
         <v-layout class="pt-2 px-8">
           <v-flex text-center>
             <div class="subtitle-2 blue--text">
@@ -97,7 +101,7 @@
             </v-list-item-avatar>
             <v-list-item-content>
               <v-list-item-title class="subtitle-2"> Sercan NAYA </v-list-item-title>
-              <v-list-item-subtitle> Creator  </v-list-item-subtitle>
+              <v-list-item-subtitle> Developer  </v-list-item-subtitle>
             </v-list-item-content>
             <v-list-item-action>
               <v-icon> mdi-chevron-right </v-icon>
@@ -125,9 +129,9 @@ export default {
     data() {
         return {
             items: [
-                { title: 'Home', icon: 'mdi-view-dashboard' },
-                { title: 'Recent', icon: 'mdi-image' },
-                { title: 'Following', icon: 'mdi-help-box' },
+                { title: 'Home', icon: 'mdi-home' },
+                { title: 'Recent', icon: 'mdi-clock-time-three' },
+                { title: 'Following', icon: 'mdi-account-group' },
             ],
             items2: [
                 { title: 'Messages', icon: 'mdi-view-dashboard' },

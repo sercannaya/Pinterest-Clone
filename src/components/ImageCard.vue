@@ -7,7 +7,7 @@
       </v-avatar>
       <v-flex class="ml-3">
         <div class="subtitle-2">{{ meta.name }}</div>
-        <div class="body-2 grey--text text--darken-1">{{ meta.occupation }}</div>
+        <div class="body-2 grey--text text--darken-1">{{ meta.followers }}</div>
       </v-flex>
     </v-layout>
   </v-card>
