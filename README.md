@@ -2,7 +2,7 @@
 
 
 ## Description
-This Pinterest page is based on the UX concept design made by Shinka Gupta.
+This Pinterest page is based on the UX concept design made by Shinka Gupta.<br />
 [Shinka Gupta's UX concept link](https://www.uplabs.com/posts/pinterest-redesign-ux-concept)
 
 ## Project General View
