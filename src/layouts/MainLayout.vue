@@ -1,40 +1,26 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+    <v-app-bar flat height="100" app color="white">
+      <v-layout align-center>
+        <v-flex>
+          <v-text-field 
+            color="grey"
+            placeholder="Search" 
+            class="mt-7" 
+            flat 
+            solo-inverted 
+            prepend-inner-icon="mdi-magnify" 
+          />
+        </v-flex>
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+          <v-btn height="45" class="mx-2 ml-4"> 
+            <v-icon> mdi-account </v-icon>
+          </v-btn>
+          <v-btn height="45" class="ml-2" dark>
+            <v-icon> mdi-plus </v-icon>
+          </v-btn>
 
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      </v-layout>
     </v-app-bar>
 
     <v-navigation-drawer app permanent>
@@ -89,8 +75,38 @@
           </v-list-item-content>
           <v-list-item-avatar size="25" color="orange" class="white--text subtitle-2"> 2 </v-list-item-avatar>
         </v-list-item>
-        
       </v-list>
+      <v-card flat>
+        <v-img src="https://assets.website-files.com/5bff8886c3964a992e90d465/5bff98f85ea7faf86504605e_scenes.gif" />
+        <v-layout class="pt-2 px-8">
+          <v-flex text-center>
+            <div class="subtitle-2 blue--text">
+              Unlock Business Tools
+            </div>
+            <div class="caption">
+              Hurry Up! Now you can unlock out new business tools at your Convenience.
+            </div>
+          </v-flex>
+        </v-layout>
+      </v-card>
+      <v-layout align-center class="my-8 mx-4">
+        <v-card style="border-radius: 10px" class="mx-auto" elevation="2">
+          <v-list-item>
+            <v-list-item-avatar>
+              <v-img src="https://www.sercannaya.com/assets/img/image-1.jpg" />
+            </v-list-item-avatar>
+            <v-list-item-content>
+              <v-list-item-title class="subtitle-2"> Sercan NAYA </v-list-item-title>
+              <v-list-item-subtitle> Creator  </v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-action>
+              <v-icon> mdi-chevron-right </v-icon>
+            </v-list-item-action>
+          </v-list-item>
+        </v-card>
+      </v-layout>
+
+
     </v-navigation-drawer>
 
     <v-main>
