@@ -6,7 +6,7 @@ This Pinterest page is based on the UX concept design made by Shinka Gupta.
 [Shinka Gupta's UX concept link](https://www.uplabs.com/posts/pinterest-redesign-ux-concept)
 
 ## Project General View
-![alt text](https://github.com/sercannaya/Pinterest-Clone/Project General View/pinterest-redesing-vuejs.png)
+![alt text](https://github.com/sercannaya/Pinterest-Clone/project-general-view/pinterest-redesing-vuejs.png)
 
 ## Project setup
 ```
